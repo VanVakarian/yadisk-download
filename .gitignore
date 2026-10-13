@@ -1,0 +1,15 @@
+# Build output. The binary has the Yandex OAuth credentials baked in by build.sh;
+# bin/.state holds the refresh token, the log and the lock of runs started from there.
+/bin/
+
+# Run data that appears next to a binary built or run in the repo root
+/yadisk-download
+/.state/
+/downloads/
+*.part
+*.test
+
+# Local notes about the personal Disk (regenerate with -tree)
+/yadisk-structure.txt
+
+.DS_Store
